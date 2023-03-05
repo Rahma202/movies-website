@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Roboto:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color:rgba(51, 51, 51, 0.415);
+}
+.nav{
+    background-color: rgb(83, 71, 71);
+   
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 100%;
+}
+.nav ul li a{
+    
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    
+}
+.nav ul li a:hover{
+    
+    background-color: #000;
+}
+.detials{
+
+padding: 40px;
+justify-content: space-between;
+}
+.detials .item{
+border-radius: 10px;
+padding: 5px;
+background-color: rgb(131, 125, 125);
+color: #fff;
+transition: all 0.5s;
+}
+.detials .item:hover{
+    border:5px solid #000;
+}
+.detials img{
+    width: 100%;
+    height: 400px;
+    border-radius: 6px;
+}
+.detials h2{
+    width: 100%;
+    margin: 6px 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.containerStyle{
+    width: 80%;
+    display: flex;
+    padding: 1%;
+    gap:4%;
+    justify-content: space-between;
+    border: 3px solid #fff;
+    color: #fff;
+}
+.container img{
+    width: 50%;
+    height: 400px;
+    
+}
+.container p{
+    width: 50%;
+    color: #fff;
+}
